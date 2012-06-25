@@ -1,13 +1,18 @@
 .post{
+  h1.title {
+    float: left;
+  }
+  .entry-content {
+    clear: both;
+  }
 	h1.title, .entry-content{
-		margin-left: 200px;
 		@media screen and (max-width: 800px){
 			margin-left: 0;
 		}
 	}
 	.meta{
-		position: absolute;
-		top: 85px;
+	  padding-top: 9px;
+		float: right;
 		line-height: 2;
 		font-size: 0.9em;
 		color: $color-gray02;
